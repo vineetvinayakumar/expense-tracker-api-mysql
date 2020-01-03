@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('../db/mysql_connection')
 const validator = require('validator')
 
 const userSchema = new mongoose.Schema({
