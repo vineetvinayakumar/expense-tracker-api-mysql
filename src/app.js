@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config({
     path: 'config/dev.env'
 });
-require('./db/mongoose')
+require('./db/mysql_connection')
 
 const app = express()
 const port = process.env.PORT
